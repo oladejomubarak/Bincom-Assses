@@ -1,0 +1,162 @@
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+* {
+  margin: 0;
+  background-image: url();
+}
+.info{
+  background-color: rgb(203, 159, 159);
+  justify-content: center;
+  justify-items: center;
+  align-items:center;
+  display: block;
+}
+.info .phone-number{
+  margin-left: 670px;
+}
+.info h1{
+  margin-left: 540px;
+  font-size: 25px;
+}
+.email{
+  padding-bottom: 2px;
+}
+.second{
+  /* display: inline; */
+  display: flex;
+  margin-top: 2px;
+}
+.parent-div{
+  display:block
+}
+.personal-data{
+background-color: aqua;
+height: 290px;
+flex: 1;
+}
+.first-image-div{
+  background-color: rgb(203, 159, 159);
+  height: 290px;
+  flex: 1;
+
+}
+.first-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50% 50%  ;
+
+}
+.education{
+  flex: 1;
+  background-color: aqua;
+}
+.education h1{
+  margin-left: 30px;
+  font-size: 30px;
+}
+.education p{
+  margin-left: 10px;
+  font-size: 22px;
+  color: rgb(171, 47, 47);
+}
+.personal-data h1{
+  margin-left: 25%;
+}
+.personal-data p{
+  margin-left: 10px;
+  font-size: 26px;
+  color: rgb(171, 47, 47);
+}
+.third{
+  display: flex;
+  margin-top: 2px;
+}
+.pics-group1-div{
+
+  height: 270px;
+  flex: 1;
+  background-color: rgb(203, 159, 159);
+  display: flex;
+  
+
+}
+.experience{
+background-color:  aqua;
+height: 270px;
+  flex: 1;
+
+}
+.certifications{
+  background-color:  aqua;
+  height: 270px;
+  flex: 1;
+
+}
+.certifications h1{
+  margin-left: 30px;
+  font-size: 30px;
+}
+.certifications p{
+  font-size: 15px;
+  color: rgb(171, 47, 47);
+}
+.experience h1{
+  margin-left: 30px;
+  font-size: 30px;
+}
+.experience p{
+  font-size: 17px;
+  color: rgb(171, 47, 47);
+}
+
+.pics-group2-div{
+  height: 270px;
+  flex: 1;
+  background-color: rgb(203, 159, 159);
+  display: flex;
+}
+.image11{
+flex: 1;
+}
+.image12{
+  flex: 1;
+}
+.image21{
+  flex: 1;
+}
+.image22{
+  flex: 1; 
+}
+/* .footer-div{
+  background-color: rgb(203, 159, 159);
+  height: 40px;
+} */
+footer{
+  background-color: rgb(203, 159, 159);
+  height: 40px;
+  display: flex;
+}
+footer .current-date{
+
+}
+.date {
+  margin-top: 10px;
+  text-align:left;
+flex: 1;
+}
+.time {
+  margin-top: 10px;
+  margin-left: 5px;
+  flex: 1;
+}
+/* footer .time{
+flex: 1;
+} */
+footer .copyright{
+  flex: 1;
+  margin-right: 5px;
+  text-align: right;
+}
+.copyright p{
+  margin-top: 10px;
+}
